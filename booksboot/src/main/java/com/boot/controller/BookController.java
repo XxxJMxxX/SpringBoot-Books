@@ -34,7 +34,7 @@ public class BookController
         return BookStub.update(id, book);
     }
 
-    @RequestMapping(value = "books", method = RequestMethod.DELETE)
+    @RequestMapping(value = "books/{id}", method = RequestMethod.DELETE)
     public Book deleteBook(@PathVariable Long id)
     {
         return BookStub.delete(id);

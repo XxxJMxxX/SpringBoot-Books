@@ -14,10 +14,10 @@ public class BookStub {
 
     //populate initial books
     static {
-        Book a = new Book(1L, "El niño del holocausto", "Jack Kuper", "insert here description",   "1994");
+        Book a = new Book(1L, "El niño del holocausto", "Jack Kuper", "insert here description",   "2009");
         books.put(1L, a);
 
-        Book b = new Book(2L, "20.000 Leguas de viaje submarino", "Jules Verne", "insert here description",  "1990");
+        Book b = new Book(2L, "20.000 Leguas de viaje submarino", "Jules Verne", "insert here description",  "1869");
         books.put(2L, b);
     }
 
